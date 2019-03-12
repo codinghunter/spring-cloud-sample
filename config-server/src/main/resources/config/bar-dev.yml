@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+service:
+  name: service-bar
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

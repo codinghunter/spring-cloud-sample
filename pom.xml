@@ -15,7 +15,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>cloud-config-server</module>
+        <module>config-server</module>
+        <module>service-registry-server</module>
         <module>demo-service-foo</module>
         <module>demo-service-bar</module>
     </modules>
