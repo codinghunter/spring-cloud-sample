@@ -15,7 +15,7 @@ public class BarService {
     @HystrixCommand
     public String getBarName() {
         try {
-            TimeUnit.MILLISECONDS.sleep(11000);
+            TimeUnit.MILLISECONDS.sleep(400);
         } catch (InterruptedException e) {
             throw new IllegalStateException(e);
         }

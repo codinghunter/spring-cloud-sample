@@ -2,7 +2,7 @@ server:
   port: 8081
 
 service:
-  name: service-bar
+  name: org.kotliner.sample.service.bar
 
 management:
   endpoints:

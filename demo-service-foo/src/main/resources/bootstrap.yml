@@ -2,4 +2,4 @@ spring:
   profiles:
     active: dev
   application:
-    name: foo
+    name: org.kotliner.sample.service.foo

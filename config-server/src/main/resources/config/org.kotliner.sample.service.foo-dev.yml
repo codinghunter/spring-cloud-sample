@@ -2,7 +2,7 @@ server:
   port: 8082
 
 service: 
-  name: service-foo
+  name: org.kotliner.sample.service.foo
 
 management:
   endpoints:
