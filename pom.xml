@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>org.kotliner.demo</groupId>
-    <artifactId>spring-cloud-demo</artifactId>
+    <artifactId>spring-cloud-sample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -34,7 +34,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>19.0</version>
+                <version>[30.0-jre,)</version>
             </dependency>
             <dependency>
                 <groupId>javax.xml.bind</groupId>
